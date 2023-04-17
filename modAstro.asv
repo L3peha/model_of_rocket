@@ -1,0 +1,8 @@
+function [] = modAstro()
+%modAstro Модель движения астроориентиров (Солнце, Луна, Земля) 
+global julianCent;      %<-
+global modQJ2k2Body;    %<-Кватернион разворота связанного базиса относительно ИСК J2000
+global vSunBody;        %-Ю
+vSunJ2k = sunPos(julianCent);
+
+end
